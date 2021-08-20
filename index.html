@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Geometría</title>
+<link rel="stylesheet" href="./style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="./images/logo.png" alt="Logo geometry">
+        <h1>Geometría</h1>
+    </header>
+<script src="figuras.js"></script>
+
+<section class="geometry">
+    <div class="square">
+        <h2>Cuadrado</h2>
+        <form class="square__form" action="">
+            <div class="square__form--label">
+                <label for="inputCuadrado">Escribe cuánto mide cada lado de un cuadrado:</label>
+                <input class="inputUser" id="inputCuadrado" type="number">
+            </div>
+            <div class="square__form--buttons">
+                <button class="button" type="button" onclick="calcularPerimetroCuadrado()">Calcular Perímetro</button>
+                <button class="button" type="button" onclick="calcularAreaCuadrado()">Calcular Área</button>
+            </div>
+            <div class="square__form--output">
+                <label for="outputCuadrado">Respuesta:</label>
+                <input class="outputUser" id="outputCuadrado" type="number">
+            </div>
+        </form>
+    </div>
+    <div class="triangle">
+        <h2>Triángulo</h2>
+        <form class="triangle__form" action="">
+            <div class="triangle__form--label">
+                <label for="inputTriangulo1">Escribe cuánto mide el primer lado:</label>
+                <input class="inputUser" id="inputTriangulo1" type="number">
+            </div>
+            <div class="triangle__form--label">
+                <label for="inputTriangulo2">Escribe cuánto mide el segundo lado:</label>
+                <input class="inputUser" id="inputTriangulo2" type="number">
+            </div>
+            <div class="triangle__form--label">
+                <label for="inputTriangulo3">Escribe cuánto mide el tercer lado:</label>
+                <input class="inputUser" id="inputTriangulo3" type="number">
+            </div>
+            <div class="triangle__form--buttons">
+                <button class="button" type="button" onclick="calcularPerimetroTriangulo()">Calcular Perímetro</button>
+                <button class="button" type="button" onclick="calcularAreaTriangulo()">Calcular Área</button>
+            </div>
+            <div class="triangle__form--output">
+                <label for="outputTriangulo">Respuesta:</label>
+                <input class="outputUser" id="outputTriangulo" type="number">
+            </div>
+        </form>
+    </div>
+    <div class="circle">
+        <h2>Círculo</h2>
+        <form class="circle__form" action="">
+            <div class="circle__form--label">
+                <label for="inputCirculo">Escribe cuánto mide el radio:</label>
+                <input class="inputUser" id="inputCirculo" type="number">
+            </div>
+            <div class="circle__form--button">
+                <button class="button" type="button" onclick="calcularCircunferencia()">Calcular Circunferencia</button>
+                <button class="button" type="button" onclick="calcularAreaCirculo()">Calcular Área</button>
+            </div>
+            <div class="circle__form--output">
+                <label for="outputCircle">Respuesta:</label>
+                <input class="outputUser" id="outputCircle" type="number">
+            </div>
+        </form>
+    </div>
+</section>
+<footer class="footer">
+    <p>Sígueme en mis redes sociales: </p>
+    <div class="instagram">
+        <img src="./images/instagram.png" alt="Instagram">
+        <a id="instagram" href="https://www.instagram.com/thecircuitproject/?hl=en">Instagram</a>
+    </div>
+    <div class="youtube">
+        <img src="./images/youtube.png" alt="Instagram">
+        <a id="youtube" href="https://www.youtube.com/c/TheCircuitProject">YouTube</a>
+    </div>
+    <div class="twitter">
+        <img src="./images/twitter.png" alt="Instagram">
+        <a id="twitter" href="https://twitter.com/bor_rayo">Twitter</a>
+    </div>
+</footer>
+</body>
+</html>
