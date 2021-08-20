@@ -6,3 +6,4 @@ Geometria calculates the area and perimeter of:
 2. Triangles.
 3. Circles
 given the user's input.
+You can access "Geometría" on https://thecircuitproject.github.io/geometria.github.io/
