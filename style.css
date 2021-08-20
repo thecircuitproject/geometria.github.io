@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EDEDED;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    display: flex;
+    flex: row;
+    justify-content: start;
+    align-items: center;
+    color: #DA0037;
+    padding: 10px;
+    font-size: 40px;
+    width: 100%;
+}
+.logo{
+    width: 150px;
+}
+.geometry{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10px;
+    color: #ededed;
+}
+.geometry h2{
+    font-size: 40px;
+}
+.square{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 5px;
+    width: 600px;
+    height: 400px;
+    justify-content: center;
+    background-color: #DA0037;
+    font-size: 20px;
+}
+.square__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 70%;
+    width: 400px;
+}
+.square__form--label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+}
+.square__form--buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+}
+.square__form--output{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+}
+.triangle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    width: 600px;
+    height: 400px;
+    border-radius: 50px;
+    justify-content: center;
+    background-color: #DA0037;
+    font-size: 20px;
+}
+.triangle__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 80%;
+}
+.triangle__form--label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+}
+.triangle__form--buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+}
+.triangle__form--output{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+}
+.circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    width: 600px;
+    height: 400px;
+    border-radius: 50px;
+    justify-content: center;
+    background-color: #DA0037;
+    font-size: 20px;
+}
+.circle__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 70%;
+}
+.circle__form--label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+}
+.circle__form--button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+}
+.circle__form--output{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+}
+.button{
+    background-color: #171717;
+    color: #ededed;
+    border-radius: 40px;
+    height: 50px;
+    width: 140px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.button:hover{
+    background-color: rgba(255, 255,255,1);
+    color: #171717;
+}
+.inputUser{
+    border: none;
+    width: 80px;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.outputUser{
+    border: none;
+    width: 80px;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+textarea:focus, input:focus{
+    outline: none;
+}
+.footer{
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 110px;
+    background-color: #171717;
+    color: #EDEDED;
+    font-size: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: #EDEDED;
+}
+.footer a:hover{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.instagram{
+    display: flex;
+    flex: row;
+    align-items: center;
+}
+.youtube{
+    display: flex;
+    flex: row;
+    align-items: center;
+}
+.twitter{
+    display: flex;
+    flex: row;
+    align-items: center;
+}
+@media only screen and (max-width: 600px) {
+    body{
+        width: 600px;
+    }
+    .geometry{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10px;
+    }
+    .square{
+        width: 500px;
+    }
+    .circle{
+        width: 500px;
+    }
+    .triangle{
+        width: 500px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 180px;
+    }
+}
